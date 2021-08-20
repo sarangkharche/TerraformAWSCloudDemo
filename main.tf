@@ -54,7 +54,7 @@ resource "aws_route_table" "route_table1" {
   }
 }
 
-# Build route table 2
+# Build route table 2 - test
 resource "aws_route_table" "route_table2" {
   vpc_id = aws_vpc.vpc.id
 
