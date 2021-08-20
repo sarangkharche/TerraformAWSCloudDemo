@@ -8,7 +8,7 @@ terraform {
   
   required_version = ">=0.12.13"
   backend "s3" {
-    bucket         = "kyler-github-actions-demo-terraform-tfstate"
+    bucket         = "terraform-sk-bucket"
     key            = "terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "aws-locks"
